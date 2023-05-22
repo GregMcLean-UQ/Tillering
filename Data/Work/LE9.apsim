@@ -1,0 +1,1698 @@
+<folder version="37" creator="Apsim 7.10-r0" name="Breeders 2010">
+  <simulation name="Sorghum_LE9_Pioneer S34-16">
+    <metfile name="met">
+      <filename name="filename" input="yes">LE9.met</filename>
+    </metfile>
+    <clock>
+      <start_date type="date" description="Enter the start date of the simulation">1/01/1995</start_date>
+      <end_date type="date" description="Enter the end date of the simulation">30/05/1995</end_date>
+    </clock>
+    <summaryfile />
+    <area name="paddock">
+      <Soil name="Peter's">
+        <SoilType description="Soil description">Lawesloam</SoilType>
+        <LocalName>Lawes</LocalName>
+        <Site>Lawes</Site>
+        <NearestTown description="Nearest town">Unknown</NearestTown>
+        <Region>Lockyer Valley</Region>
+        <NaturalVegetation description="Natural vegetation">Unknown</NaturalVegetation>
+        <Water>
+          <SoilCrop name="Sorghum">
+            <Thickness>
+              <double>200</double>
+              <double>200</double>
+              <double>200</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+            </Thickness>
+            <LL>
+              <double>0.3</double>
+              <double>0.3</double>
+              <double>0.35</double>
+              <double>0.32</double>
+              <double>0.29</double>
+              <double>0.31</double>
+              <double>0.31</double>
+            </LL>
+            <KL>
+              <double>0.07</double>
+              <double>0.07</double>
+              <double>0.07</double>
+              <double>0.05</double>
+              <double>0.05</double>
+              <double>0.04</double>
+              <double>0.03</double>
+            </KL>
+            <XF>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+            </XF>
+          </SoilCrop>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <BD>
+            <double>1.32</double>
+            <double>1.3</double>
+            <double>1.23</double>
+            <double>1.27</double>
+            <double>1.37</double>
+            <double>1.35</double>
+            <double>1.35</double>
+          </BD>
+          <AirDry>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+          </AirDry>
+          <LL15>
+            <double>0.3</double>
+            <double>0.3</double>
+            <double>0.35</double>
+            <double>0.32</double>
+            <double>0.29</double>
+            <double>0.31</double>
+            <double>0.31</double>
+          </LL15>
+          <DUL>
+            <double>0.41</double>
+            <double>0.43</double>
+            <double>0.46</double>
+            <double>0.44</double>
+            <double>0.4</double>
+            <double>0.41</double>
+            <double>0.38</double>
+          </DUL>
+          <SAT>
+            <double>0.46</double>
+            <double>0.48</double>
+            <double>0.51</double>
+            <double>0.49</double>
+            <double>0.45</double>
+            <double>0.46</double>
+            <double>0.43</double>
+          </SAT>
+        </Water>
+        <SoilWater>
+          <SummerCona>3.5</SummerCona>
+          <SummerU>6</SummerU>
+          <SummerDate>1-Nov</SummerDate>
+          <WinterCona>3.5</WinterCona>
+          <WinterU>6</WinterU>
+          <WinterDate>1-Apr</WinterDate>
+          <DiffusConst>88</DiffusConst>
+          <DiffusSlope>35.4</DiffusSlope>
+          <Salb>0.13</Salb>
+          <CN2Bare>91</CN2Bare>
+          <CNRed>20</CNRed>
+          <CNCov>0.8</CNCov>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <SWCON>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+          </SWCON>
+        </SoilWater>
+        <SoilOrganicMatter>
+          <RootCN>30</RootCN>
+          <RootWt>1500</RootWt>
+          <SoilCN>12.5</SoilCN>
+          <EnrACoeff>7.4</EnrACoeff>
+          <EnrBCoeff>0.2</EnrBCoeff>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <OC>
+            <double>1.8</double>
+            <double>1.2</double>
+            <double>1</double>
+            <double>1</double>
+            <double>0.71</double>
+            <double>0.34</double>
+            <double>0.26</double>
+          </OC>
+          <FBiom>
+            <double>0.05</double>
+            <double>0.02</double>
+            <double>0.01</double>
+            <double>0.01</double>
+            <double>0.01</double>
+            <double>0.01</double>
+            <double>0.01</double>
+          </FBiom>
+          <FInert>
+            <double>0.39</double>
+            <double>0.47</double>
+            <double>0.52</double>
+            <double>0.62</double>
+            <double>0.74</double>
+            <double>0.83</double>
+            <double>0.93</double>
+          </FInert>
+        </SoilOrganicMatter>
+        <Analysis>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <EC>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+          </EC>
+          <PH>
+            <double>6.9</double>
+            <double>7</double>
+            <double>7</double>
+            <double>8</double>
+            <double>8</double>
+            <double>8</double>
+            <double>8</double>
+          </PH>
+        </Analysis>
+        <Sample name="Initial soil">
+          <Date type="date" description="Sample date:" />
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <NO3>
+            <double>53.27</double>
+            <double>19.07</double>
+            <double>1.66</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+          </NO3>
+          <NH4>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+          </NH4>
+          <SW>
+            <double>0.342</double>
+            <double>0.416</double>
+            <double>0.445</double>
+            <double>0.429</double>
+            <double>0.388</double>
+            <double>0.407</double>
+            <double>0.395</double>
+          </SW>
+        </Sample>
+      </Soil>
+      <surfaceom name="SurfaceOrganicMatter">
+        <PoolName type="text" description="Organic Matter pool name">wheat</PoolName>
+        <type type="list" listvalues="bambatsi,barley,base_type,broccoli,camaldulensis,canola,centro,chickpea,chikenmanure_base,cm,cmA,cmB,constants,cotton,cowpea,danthonia,fababean,fieldpea,fym,gbean,globulus,goatmanure,grandis,grass,horsegram,inert,lablab,lentil,lucerne,lupin,maize,manB,manure,medic,millet,mucuna,nativepasture,navybean,oats,orobanche,peanut,pigeonpea,potato,rice,sorghum,soybean,stylo,sugar,sunflower,sweetcorn,sweetsorghum,tillage,tithonia,vetch,weed,wheat" description="Organic Matter type">wheat</type>
+        <mass type="text" description="Initial surface residue (kg/ha)">1000</mass>
+        <cnr type="text" description="C:N ratio of initial residue">80</cnr>
+        <standing_fraction type="text" description="Fraction of residue standing">0</standing_fraction>
+      </surfaceom>
+      <fertiliser />
+      <sorghum />
+      <folder name="Manager folder">
+        <manager name="Sow on a fixed date">
+          <ui>
+            <category type="category" description="Sowing criteria" />
+            <date type="text" description="Enter sowing date (dd-mmm) : ">12/01/1995</date>
+            <category type="category" description="Sowing parameters" />
+            <crop type="crop" description="Enter name of crop to sow : ">sorghum</crop>
+            <density type="text" description="Enter sowing density  (plants/m2) : ">16</density>
+            <depth type="text" description="Enter sowing depth  (mm) : ">30</depth>
+            <cultivar type="cultivars" description="Enter cultivar : ">pioneer_s34</cultivar>
+            <class type="classes" description="Enter crop growth class : ">plant</class>
+            <row_spacing type="text" description="Enter row spacing (mm) : ">0.5</row_spacing>
+            <skiprow type="list" listvalues="solid, single, double" description="Skip row : ">solid</skiprow>
+            <ftn type="text" description="Enter Fertile Tiller Number :">0.4</ftn>
+          </ui>
+          <script>
+            <text>
+        if (today = date('[date]') then
+              [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], crop_class = [class], tiller_no_fertile = [ftn]
+         endif
+if (paddock_is_fallow() = 0) then 
+   outputfile do_output
+endif               </text>
+            <event>start_of_day</event>
+          </script>
+        </manager>
+        <manager name="Harvesting rule">
+          <ui>
+            <category description="Harvesting criteria" type="category" />
+            <crop type="crop" description="Enter name of crop to harvest when ripe : ">sorghum</crop>
+          </ui>
+          <script>
+            <text>
+
+           if [crop].StageName = 'harvest_ripe' or [crop].plant_status = 'dead' then
+              [crop]  harvest
+              [crop]  end_crop
+           endif
+
+            </text>
+            <event>end_of_day</event>
+          </script>
+        </manager>
+      </folder>
+      <outputfile>
+        <filename output="yes">Sorghum_LE9_Pioneer S34-16.out</filename>
+        <title>Sorghum_LE9_Pioneer S34-16</title>
+        <Graph name="XY">
+          <Plot>
+            <SeriesType>Solid line</SeriesType>
+            <PointType>Circle</PointType>
+            <colour>
+            </colour>
+            <X>Date</X>
+            <Y>biomass</Y>
+            <Y>yield</Y>
+            <GDApsimFileReader name="ApsimFileReader" />
+          </Plot>
+        </Graph>
+        <variables name="Variables">
+          <variable array="?" description="Date (dd/mm/yyyy)">dd/mm/yyyy as date</variable>
+          <variable array="No" description="Days after sowing">DaysAfterSowing</variable>
+          <variable>sw_dep()</variable>
+          <variable>ll15_dep()</variable>
+          <variable>dul_dep()</variable>
+          <variable>WaterSD</variable>
+          <variable array="No" description="Total above-ground biomass">Biomass</variable>
+          <variable>yield</variable>
+          <variable>lai</variable>
+          <variable>GrainNo</variable>
+          <variable>stage</variable>
+          <variable array="No" description="Total above-ground biomass">biomass_wt</variable>
+          <variable array="No" description="Live grain dry weight">GrainGreenWt</variable>
+          <variable array="No" description="Live rachis dry weight">RachisGreenWt</variable>
+          <variable array="No" description="Stem dry weight">StemGreenWt</variable>
+          <variable array="No" description="1000 grain weight">GrainSize</variable>
+          <variable array="No" description="Senesced leaf dry weight">LeafSenescedWt</variable>
+          <variable>TillerNoFertile</variable>
+          <variable>Leafno</variable>
+        </variables>
+      </outputfile>
+      <operations name="Operations Schedule">
+        <operation condition="start_of_day">
+          <date>12/01/1995</date>
+          <action>Irrigation apply amount = 22</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>13/01/1995</date>
+          <action>Irrigation apply amount = 16</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>16/01/1995</date>
+          <action>Irrigation apply amount = 8</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>24/01/1995</date>
+          <action>Irrigation apply amount = 8</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>25/01/1995</date>
+          <action>Irrigation apply amount = 6</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>3/02/1995</date>
+          <action>Irrigation apply amount = 11</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/02/1995</date>
+          <action>Irrigation apply amount = 32</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/03/1995</date>
+          <action>Irrigation apply amount = 27</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>17/03/1995</date>
+          <action>Irrigation apply amount = 8</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>22/03/1995</date>
+          <action>Irrigation apply amount = 16</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>5/04/1995</date>
+          <action>Irrigation apply amount = 24</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>4/01/1995</date>
+          <action>fertiliser apply amount = 0 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>4/01/1995</date>
+          <action>fertiliser apply amount = 0 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>11/01/1995</date>
+          <action>fertiliser apply amount = 105 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/02/1995</date>
+          <action>fertiliser apply amount = 59 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/03/1995</date>
+          <action>fertiliser apply amount = 59 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+      </operations>
+      <irrigation name="Irrigation">
+        <automatic_irrigation type="list" listvalues="on,off" description="Automatic irrigation">off</automatic_irrigation>
+        <asw_depth type="text" description="Depth to which ASW is calculated. (mm)">600</asw_depth>
+        <crit_fr_asw type="text" description="Fraction of ASW below which irrigation is applied (0-1.0)">0.5</crit_fr_asw>
+        <irrigation_efficiency type="text" description="Efficiency of the irrigation. (0-1.0)">1</irrigation_efficiency>
+        <irrigation_allocation type="list" listvalues="on,off" description="Allocation limits">off</irrigation_allocation>
+        <allocation type="text" description="Allocation in mm">0</allocation>
+        <default_no3_conc type="text" description="Nitrate concentration (ppm N)">0.0</default_no3_conc>
+        <default_nh4_conc type="text" description="Ammonium concentration (ppm N)">0.0</default_nh4_conc>
+        <default_cl_conc type="text" description="Chloride concentration (ppm Cl)">0.0</default_cl_conc>
+      </irrigation>
+    </area>
+  </simulation>
+  <simulation name="Sorghum_LE9_Pioneer S34-8">
+    <metfile name="met">
+      <filename name="filename" input="yes">LE9.met</filename>
+    </metfile>
+    <clock>
+      <start_date type="date" description="Enter the start date of the simulation">1/01/1995</start_date>
+      <end_date type="date" description="Enter the end date of the simulation">30/05/1995</end_date>
+    </clock>
+    <summaryfile />
+    <area name="paddock">
+      <Soil name="Peter's">
+        <SoilType description="Soil description">Lawesloam</SoilType>
+        <LocalName>Lawes</LocalName>
+        <Site>Lawes</Site>
+        <NearestTown description="Nearest town">Unknown</NearestTown>
+        <Region>Lockyer Valley</Region>
+        <NaturalVegetation description="Natural vegetation">Unknown</NaturalVegetation>
+        <Water>
+          <SoilCrop name="Sorghum">
+            <Thickness>
+              <double>200</double>
+              <double>200</double>
+              <double>200</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+            </Thickness>
+            <LL>
+              <double>0.3</double>
+              <double>0.3</double>
+              <double>0.35</double>
+              <double>0.32</double>
+              <double>0.29</double>
+              <double>0.31</double>
+              <double>0.31</double>
+            </LL>
+            <KL>
+              <double>0.07</double>
+              <double>0.07</double>
+              <double>0.07</double>
+              <double>0.05</double>
+              <double>0.05</double>
+              <double>0.04</double>
+              <double>0.03</double>
+            </KL>
+            <XF>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+            </XF>
+          </SoilCrop>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <BD>
+            <double>1.32</double>
+            <double>1.3</double>
+            <double>1.23</double>
+            <double>1.27</double>
+            <double>1.37</double>
+            <double>1.35</double>
+            <double>1.35</double>
+          </BD>
+          <AirDry>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+          </AirDry>
+          <LL15>
+            <double>0.3</double>
+            <double>0.3</double>
+            <double>0.35</double>
+            <double>0.32</double>
+            <double>0.29</double>
+            <double>0.31</double>
+            <double>0.31</double>
+          </LL15>
+          <DUL>
+            <double>0.41</double>
+            <double>0.43</double>
+            <double>0.46</double>
+            <double>0.44</double>
+            <double>0.4</double>
+            <double>0.41</double>
+            <double>0.38</double>
+          </DUL>
+          <SAT>
+            <double>0.46</double>
+            <double>0.48</double>
+            <double>0.51</double>
+            <double>0.49</double>
+            <double>0.45</double>
+            <double>0.46</double>
+            <double>0.43</double>
+          </SAT>
+        </Water>
+        <SoilWater>
+          <SummerCona>3.5</SummerCona>
+          <SummerU>6</SummerU>
+          <SummerDate>1-Nov</SummerDate>
+          <WinterCona>3.5</WinterCona>
+          <WinterU>6</WinterU>
+          <WinterDate>1-Apr</WinterDate>
+          <DiffusConst>88</DiffusConst>
+          <DiffusSlope>35.4</DiffusSlope>
+          <Salb>0.13</Salb>
+          <CN2Bare>91</CN2Bare>
+          <CNRed>20</CNRed>
+          <CNCov>0.8</CNCov>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <SWCON>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+          </SWCON>
+        </SoilWater>
+        <SoilOrganicMatter>
+          <RootCN>30</RootCN>
+          <RootWt>1500</RootWt>
+          <SoilCN>12.5</SoilCN>
+          <EnrACoeff>7.4</EnrACoeff>
+          <EnrBCoeff>0.2</EnrBCoeff>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <OC>
+            <double>1.8</double>
+            <double>1.2</double>
+            <double>1</double>
+            <double>1</double>
+            <double>0.71</double>
+            <double>0.34</double>
+            <double>0.26</double>
+          </OC>
+          <FBiom>
+            <double>0.05</double>
+            <double>0.02</double>
+            <double>0.01</double>
+            <double>0.01</double>
+            <double>0.01</double>
+            <double>0.01</double>
+            <double>0.01</double>
+          </FBiom>
+          <FInert>
+            <double>0.39</double>
+            <double>0.47</double>
+            <double>0.52</double>
+            <double>0.62</double>
+            <double>0.74</double>
+            <double>0.83</double>
+            <double>0.93</double>
+          </FInert>
+        </SoilOrganicMatter>
+        <Analysis>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <EC>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+          </EC>
+          <PH>
+            <double>6.9</double>
+            <double>7</double>
+            <double>7</double>
+            <double>8</double>
+            <double>8</double>
+            <double>8</double>
+            <double>8</double>
+          </PH>
+        </Analysis>
+        <Sample name="Initial soil">
+          <Date type="date" description="Sample date:" />
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <NO3>
+            <double>53.27</double>
+            <double>19.07</double>
+            <double>1.66</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+          </NO3>
+          <NH4>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+          </NH4>
+          <SW>
+            <double>0.342</double>
+            <double>0.416</double>
+            <double>0.445</double>
+            <double>0.429</double>
+            <double>0.388</double>
+            <double>0.407</double>
+            <double>0.395</double>
+          </SW>
+        </Sample>
+      </Soil>
+      <surfaceom name="SurfaceOrganicMatter">
+        <PoolName type="text" description="Organic Matter pool name">wheat</PoolName>
+        <type type="list" listvalues="bambatsi,barley,base_type,broccoli,camaldulensis,canola,centro,chickpea,chikenmanure_base,cm,cmA,cmB,constants,cotton,cowpea,danthonia,fababean,fieldpea,fym,gbean,globulus,goatmanure,grandis,grass,horsegram,inert,lablab,lentil,lucerne,lupin,maize,manB,manure,medic,millet,mucuna,nativepasture,navybean,oats,orobanche,peanut,pigeonpea,potato,rice,sorghum,soybean,stylo,sugar,sunflower,sweetcorn,sweetsorghum,tillage,tithonia,vetch,weed,wheat" description="Organic Matter type">wheat</type>
+        <mass type="text" description="Initial surface residue (kg/ha)">1000</mass>
+        <cnr type="text" description="C:N ratio of initial residue">80</cnr>
+        <standing_fraction type="text" description="Fraction of residue standing">0</standing_fraction>
+      </surfaceom>
+      <fertiliser />
+      <sorghum />
+      <folder name="Manager folder">
+        <manager name="Sow on a fixed date">
+          <ui>
+            <category type="category" description="Sowing criteria" />
+            <date type="text" description="Enter sowing date (dd-mmm) : ">12/01/1995</date>
+            <category type="category" description="Sowing parameters" />
+            <crop type="crop" description="Enter name of crop to sow : ">sorghum</crop>
+            <density type="text" description="Enter sowing density  (plants/m2) : ">8</density>
+            <depth type="text" description="Enter sowing depth  (mm) : ">30</depth>
+            <cultivar type="cultivars" description="Enter cultivar : ">pioneer_s34</cultivar>
+            <class type="classes" description="Enter crop growth class : ">plant</class>
+            <row_spacing type="text" description="Enter row spacing (mm) : ">0.5</row_spacing>
+            <skiprow type="list" listvalues="solid, single, double" description="Skip row : ">solid</skiprow>
+            <ftn type="text" description="Enter Fertile Tiller Number :">1.3</ftn>
+          </ui>
+          <script>
+            <text>
+        if (today = date('[date]') then
+              [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], crop_class = [class], tiller_no_fertile = [ftn]
+         endif
+if (paddock_is_fallow() = 0) then 
+   outputfile do_output
+endif               </text>
+            <event>start_of_day</event>
+          </script>
+        </manager>
+        <manager name="Harvesting rule">
+          <ui>
+            <category description="Harvesting criteria" type="category" />
+            <crop type="crop" description="Enter name of crop to harvest when ripe : ">sorghum</crop>
+          </ui>
+          <script>
+            <text>
+
+           if [crop].StageName = 'harvest_ripe' or [crop].plant_status = 'dead' then
+              [crop]  harvest
+              [crop]  end_crop
+           endif
+
+            </text>
+            <event>end_of_day</event>
+          </script>
+        </manager>
+      </folder>
+      <outputfile>
+        <filename output="yes">Sorghum_LE9_Pioneer S34-8.out</filename>
+        <title>Sorghum_LE9_Pioneer S34-8</title>
+        <Graph name="XY">
+          <Plot>
+            <SeriesType>Solid line</SeriesType>
+            <PointType>Circle</PointType>
+            <colour>
+            </colour>
+            <X>Date</X>
+            <Y>biomass</Y>
+            <Y>yield</Y>
+            <GDApsimFileReader name="ApsimFileReader" />
+          </Plot>
+        </Graph>
+        <variables name="Variables">
+          <variable array="?" description="Date (dd/mm/yyyy)">dd/mm/yyyy as date</variable>
+          <variable array="No" description="Days after sowing">DaysAfterSowing</variable>
+          <variable>sw_dep()</variable>
+          <variable>ll15_dep()</variable>
+          <variable>dul_dep()</variable>
+          <variable>WaterSD</variable>
+          <variable array="No" description="Total above-ground biomass">Biomass</variable>
+          <variable>yield</variable>
+          <variable>lai</variable>
+          <variable>GrainNo</variable>
+          <variable>stage</variable>
+          <variable array="No" description="Total above-ground biomass">biomass_wt</variable>
+          <variable array="No" description="Live grain dry weight">GrainGreenWt</variable>
+          <variable array="No" description="Live rachis dry weight">RachisGreenWt</variable>
+          <variable array="No" description="Stem dry weight">StemGreenWt</variable>
+          <variable array="No" description="1000 grain weight">GrainSize</variable>
+          <variable array="No" description="Senesced leaf dry weight">LeafSenescedWt</variable>
+          <variable>TillerNoFertile</variable>
+          <variable>Leafno</variable>
+        </variables>
+      </outputfile>
+      <operations name="Operations Schedule">
+        <operation condition="start_of_day">
+          <date>12/01/1995</date>
+          <action>Irrigation apply amount = 22</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>13/01/1995</date>
+          <action>Irrigation apply amount = 16</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>16/01/1995</date>
+          <action>Irrigation apply amount = 8</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>24/01/1995</date>
+          <action>Irrigation apply amount = 8</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>25/01/1995</date>
+          <action>Irrigation apply amount = 6</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>3/02/1995</date>
+          <action>Irrigation apply amount = 11</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/02/1995</date>
+          <action>Irrigation apply amount = 32</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/03/1995</date>
+          <action>Irrigation apply amount = 27</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>17/03/1995</date>
+          <action>Irrigation apply amount = 8</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>22/03/1995</date>
+          <action>Irrigation apply amount = 16</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>5/04/1995</date>
+          <action>Irrigation apply amount = 24</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>4/01/1995</date>
+          <action>fertiliser apply amount = 0 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>4/01/1995</date>
+          <action>fertiliser apply amount = 0 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>11/01/1995</date>
+          <action>fertiliser apply amount = 105 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/02/1995</date>
+          <action>fertiliser apply amount = 59 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/03/1995</date>
+          <action>fertiliser apply amount = 59 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+      </operations>
+      <irrigation name="Irrigation">
+        <automatic_irrigation type="list" listvalues="on,off" description="Automatic irrigation">off</automatic_irrigation>
+        <asw_depth type="text" description="Depth to which ASW is calculated. (mm)">600</asw_depth>
+        <crit_fr_asw type="text" description="Fraction of ASW below which irrigation is applied (0-1.0)">0.5</crit_fr_asw>
+        <irrigation_efficiency type="text" description="Efficiency of the irrigation. (0-1.0)">1</irrigation_efficiency>
+        <irrigation_allocation type="list" listvalues="on,off" description="Allocation limits">off</irrigation_allocation>
+        <allocation type="text" description="Allocation in mm">0</allocation>
+        <default_no3_conc type="text" description="Nitrate concentration (ppm N)">0.0</default_no3_conc>
+        <default_nh4_conc type="text" description="Ammonium concentration (ppm N)">0.0</default_nh4_conc>
+        <default_cl_conc type="text" description="Chloride concentration (ppm Cl)">0.0</default_cl_conc>
+      </irrigation>
+    </area>
+  </simulation>
+  <simulation name="Sorghum_LE9_Rs671-16">
+    <metfile name="met">
+      <filename name="filename" input="yes">LE9.met</filename>
+    </metfile>
+    <clock>
+      <start_date type="date" description="Enter the start date of the simulation">1/01/1995</start_date>
+      <end_date type="date" description="Enter the end date of the simulation">30/05/1995</end_date>
+    </clock>
+    <summaryfile />
+    <area name="paddock">
+      <Soil name="Peter's">
+        <SoilType description="Soil description">Lawesloam</SoilType>
+        <LocalName>Lawes</LocalName>
+        <Site>Lawes</Site>
+        <NearestTown description="Nearest town">Unknown</NearestTown>
+        <Region>Lockyer Valley</Region>
+        <NaturalVegetation description="Natural vegetation">Unknown</NaturalVegetation>
+        <Water>
+          <SoilCrop name="Sorghum">
+            <Thickness>
+              <double>200</double>
+              <double>200</double>
+              <double>200</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+            </Thickness>
+            <LL>
+              <double>0.3</double>
+              <double>0.3</double>
+              <double>0.35</double>
+              <double>0.32</double>
+              <double>0.29</double>
+              <double>0.31</double>
+              <double>0.31</double>
+            </LL>
+            <KL>
+              <double>0.07</double>
+              <double>0.07</double>
+              <double>0.07</double>
+              <double>0.05</double>
+              <double>0.05</double>
+              <double>0.04</double>
+              <double>0.03</double>
+            </KL>
+            <XF>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+            </XF>
+          </SoilCrop>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <BD>
+            <double>1.32</double>
+            <double>1.3</double>
+            <double>1.23</double>
+            <double>1.27</double>
+            <double>1.37</double>
+            <double>1.35</double>
+            <double>1.35</double>
+          </BD>
+          <AirDry>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+          </AirDry>
+          <LL15>
+            <double>0.3</double>
+            <double>0.3</double>
+            <double>0.35</double>
+            <double>0.32</double>
+            <double>0.29</double>
+            <double>0.31</double>
+            <double>0.31</double>
+          </LL15>
+          <DUL>
+            <double>0.41</double>
+            <double>0.43</double>
+            <double>0.46</double>
+            <double>0.44</double>
+            <double>0.4</double>
+            <double>0.41</double>
+            <double>0.38</double>
+          </DUL>
+          <SAT>
+            <double>0.46</double>
+            <double>0.48</double>
+            <double>0.51</double>
+            <double>0.49</double>
+            <double>0.45</double>
+            <double>0.46</double>
+            <double>0.43</double>
+          </SAT>
+        </Water>
+        <SoilWater>
+          <SummerCona>3.5</SummerCona>
+          <SummerU>6</SummerU>
+          <SummerDate>1-Nov</SummerDate>
+          <WinterCona>3.5</WinterCona>
+          <WinterU>6</WinterU>
+          <WinterDate>1-Apr</WinterDate>
+          <DiffusConst>88</DiffusConst>
+          <DiffusSlope>35.4</DiffusSlope>
+          <Salb>0.13</Salb>
+          <CN2Bare>91</CN2Bare>
+          <CNRed>20</CNRed>
+          <CNCov>0.8</CNCov>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <SWCON>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+          </SWCON>
+        </SoilWater>
+        <SoilOrganicMatter>
+          <RootCN>30</RootCN>
+          <RootWt>1500</RootWt>
+          <SoilCN>12.5</SoilCN>
+          <EnrACoeff>7.4</EnrACoeff>
+          <EnrBCoeff>0.2</EnrBCoeff>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <OC>
+            <double>1.8</double>
+            <double>1.2</double>
+            <double>1</double>
+            <double>1</double>
+            <double>0.71</double>
+            <double>0.34</double>
+            <double>0.26</double>
+          </OC>
+          <FBiom>
+            <double>0.05</double>
+            <double>0.02</double>
+            <double>0.01</double>
+            <double>0.01</double>
+            <double>0.01</double>
+            <double>0.01</double>
+            <double>0.01</double>
+          </FBiom>
+          <FInert>
+            <double>0.39</double>
+            <double>0.47</double>
+            <double>0.52</double>
+            <double>0.62</double>
+            <double>0.74</double>
+            <double>0.83</double>
+            <double>0.93</double>
+          </FInert>
+        </SoilOrganicMatter>
+        <Analysis>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <EC>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+          </EC>
+          <PH>
+            <double>6.9</double>
+            <double>7</double>
+            <double>7</double>
+            <double>8</double>
+            <double>8</double>
+            <double>8</double>
+            <double>8</double>
+          </PH>
+        </Analysis>
+        <Sample name="Initial soil">
+          <Date type="date" description="Sample date:" />
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <NO3>
+            <double>53.27</double>
+            <double>19.07</double>
+            <double>1.66</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+          </NO3>
+          <NH4>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+          </NH4>
+          <SW>
+            <double>0.342</double>
+            <double>0.416</double>
+            <double>0.445</double>
+            <double>0.429</double>
+            <double>0.388</double>
+            <double>0.407</double>
+            <double>0.395</double>
+          </SW>
+        </Sample>
+      </Soil>
+      <surfaceom name="SurfaceOrganicMatter">
+        <PoolName type="text" description="Organic Matter pool name">wheat</PoolName>
+        <type type="list" listvalues="bambatsi,barley,base_type,broccoli,camaldulensis,canola,centro,chickpea,chikenmanure_base,cm,cmA,cmB,constants,cotton,cowpea,danthonia,fababean,fieldpea,fym,gbean,globulus,goatmanure,grandis,grass,horsegram,inert,lablab,lentil,lucerne,lupin,maize,manB,manure,medic,millet,mucuna,nativepasture,navybean,oats,orobanche,peanut,pigeonpea,potato,rice,sorghum,soybean,stylo,sugar,sunflower,sweetcorn,sweetsorghum,tillage,tithonia,vetch,weed,wheat" description="Organic Matter type">wheat</type>
+        <mass type="text" description="Initial surface residue (kg/ha)">1000</mass>
+        <cnr type="text" description="C:N ratio of initial residue">80</cnr>
+        <standing_fraction type="text" description="Fraction of residue standing">0</standing_fraction>
+      </surfaceom>
+      <fertiliser />
+      <sorghum />
+      <folder name="Manager folder">
+        <manager name="Sow on a fixed date">
+          <ui>
+            <category type="category" description="Sowing criteria" />
+            <date type="text" description="Enter sowing date (dd-mmm) : ">12/01/1995</date>
+            <category type="category" description="Sowing parameters" />
+            <crop type="crop" description="Enter name of crop to sow : ">sorghum</crop>
+            <density type="text" description="Enter sowing density  (plants/m2) : ">16</density>
+            <depth type="text" description="Enter sowing depth  (mm) : ">30</depth>
+            <cultivar type="cultivars" description="Enter cultivar : ">texas_671</cultivar>
+            <class type="classes" description="Enter crop growth class : ">plant</class>
+            <row_spacing type="text" description="Enter row spacing (mm) : ">0.5</row_spacing>
+            <skiprow type="list" listvalues="solid, single, double" description="Skip row : ">solid</skiprow>
+            <ftn type="text" description="Enter Fertile Tiller Number :">0.01</ftn>
+          </ui>
+          <script>
+            <text>
+        if (today = date('[date]') then
+              [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], crop_class = [class], tiller_no_fertile = [ftn]
+         endif
+if (paddock_is_fallow() = 0) then 
+   outputfile do_output
+endif               </text>
+            <event>start_of_day</event>
+          </script>
+        </manager>
+        <manager name="Harvesting rule">
+          <ui>
+            <category description="Harvesting criteria" type="category" />
+            <crop type="crop" description="Enter name of crop to harvest when ripe : ">sorghum</crop>
+          </ui>
+          <script>
+            <text>
+
+           if [crop].StageName = 'harvest_ripe' or [crop].plant_status = 'dead' then
+              [crop]  harvest
+              [crop]  end_crop
+           endif
+
+            </text>
+            <event>end_of_day</event>
+          </script>
+        </manager>
+      </folder>
+      <outputfile>
+        <filename output="yes">Sorghum_LE9_Rs671-16.out</filename>
+        <title>Sorghum_LE9_Rs671-16</title>
+        <Graph name="XY">
+          <Plot>
+            <SeriesType>Solid line</SeriesType>
+            <PointType>Circle</PointType>
+            <colour>
+            </colour>
+            <X>Date</X>
+            <Y>biomass</Y>
+            <Y>yield</Y>
+            <GDApsimFileReader name="ApsimFileReader" />
+          </Plot>
+        </Graph>
+        <variables name="Variables">
+          <variable array="?" description="Date (dd/mm/yyyy)">dd/mm/yyyy as date</variable>
+          <variable array="No" description="Days after sowing">DaysAfterSowing</variable>
+          <variable>sw_dep()</variable>
+          <variable>ll15_dep()</variable>
+          <variable>dul_dep()</variable>
+          <variable>WaterSD</variable>
+          <variable array="No" description="Total above-ground biomass">Biomass</variable>
+          <variable>yield</variable>
+          <variable>lai</variable>
+          <variable>GrainNo</variable>
+          <variable>stage</variable>
+          <variable array="No" description="Total above-ground biomass">biomass_wt</variable>
+          <variable array="No" description="Live grain dry weight">GrainGreenWt</variable>
+          <variable array="No" description="Live rachis dry weight">RachisGreenWt</variable>
+          <variable array="No" description="Stem dry weight">StemGreenWt</variable>
+          <variable array="No" description="1000 grain weight">GrainSize</variable>
+          <variable array="No" description="Senesced leaf dry weight">LeafSenescedWt</variable>
+          <variable>TillerNoFertile</variable>
+          <variable>Leafno</variable>
+        </variables>
+      </outputfile>
+      <operations name="Operations Schedule">
+        <operation condition="start_of_day">
+          <date>12/01/1995</date>
+          <action>Irrigation apply amount = 22</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>13/01/1995</date>
+          <action>Irrigation apply amount = 16</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>16/01/1995</date>
+          <action>Irrigation apply amount = 8</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>24/01/1995</date>
+          <action>Irrigation apply amount = 8</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>25/01/1995</date>
+          <action>Irrigation apply amount = 6</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>3/02/1995</date>
+          <action>Irrigation apply amount = 11</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/02/1995</date>
+          <action>Irrigation apply amount = 32</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/03/1995</date>
+          <action>Irrigation apply amount = 27</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>17/03/1995</date>
+          <action>Irrigation apply amount = 8</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>22/03/1995</date>
+          <action>Irrigation apply amount = 16</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>5/04/1995</date>
+          <action>Irrigation apply amount = 24</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>4/01/1995</date>
+          <action>fertiliser apply amount = 0 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>4/01/1995</date>
+          <action>fertiliser apply amount = 0 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>11/01/1995</date>
+          <action>fertiliser apply amount = 105 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/02/1995</date>
+          <action>fertiliser apply amount = 59 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/03/1995</date>
+          <action>fertiliser apply amount = 59 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+      </operations>
+      <irrigation name="Irrigation">
+        <automatic_irrigation type="list" listvalues="on,off" description="Automatic irrigation">off</automatic_irrigation>
+        <asw_depth type="text" description="Depth to which ASW is calculated. (mm)">600</asw_depth>
+        <crit_fr_asw type="text" description="Fraction of ASW below which irrigation is applied (0-1.0)">0.5</crit_fr_asw>
+        <irrigation_efficiency type="text" description="Efficiency of the irrigation. (0-1.0)">1</irrigation_efficiency>
+        <irrigation_allocation type="list" listvalues="on,off" description="Allocation limits">off</irrigation_allocation>
+        <allocation type="text" description="Allocation in mm">0</allocation>
+        <default_no3_conc type="text" description="Nitrate concentration (ppm N)">0.0</default_no3_conc>
+        <default_nh4_conc type="text" description="Ammonium concentration (ppm N)">0.0</default_nh4_conc>
+        <default_cl_conc type="text" description="Chloride concentration (ppm Cl)">0.0</default_cl_conc>
+      </irrigation>
+    </area>
+  </simulation>
+  <simulation name="Sorghum_LE9_Rs671-8">
+    <metfile name="met">
+      <filename name="filename" input="yes">LE9.met</filename>
+    </metfile>
+    <clock>
+      <start_date type="date" description="Enter the start date of the simulation">1/01/1995</start_date>
+      <end_date type="date" description="Enter the end date of the simulation">30/05/1995</end_date>
+    </clock>
+    <summaryfile />
+    <area name="paddock">
+      <Soil name="Peter's">
+        <SoilType description="Soil description">Lawesloam</SoilType>
+        <LocalName>Lawes</LocalName>
+        <Site>Lawes</Site>
+        <NearestTown description="Nearest town">Unknown</NearestTown>
+        <Region>Lockyer Valley</Region>
+        <NaturalVegetation description="Natural vegetation">Unknown</NaturalVegetation>
+        <Water>
+          <SoilCrop name="Sorghum">
+            <Thickness>
+              <double>200</double>
+              <double>200</double>
+              <double>200</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+            </Thickness>
+            <LL>
+              <double>0.3</double>
+              <double>0.3</double>
+              <double>0.35</double>
+              <double>0.32</double>
+              <double>0.29</double>
+              <double>0.31</double>
+              <double>0.31</double>
+            </LL>
+            <KL>
+              <double>0.07</double>
+              <double>0.07</double>
+              <double>0.07</double>
+              <double>0.05</double>
+              <double>0.05</double>
+              <double>0.04</double>
+              <double>0.03</double>
+            </KL>
+            <XF>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+            </XF>
+          </SoilCrop>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <BD>
+            <double>1.32</double>
+            <double>1.3</double>
+            <double>1.23</double>
+            <double>1.27</double>
+            <double>1.37</double>
+            <double>1.35</double>
+            <double>1.35</double>
+          </BD>
+          <AirDry>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+          </AirDry>
+          <LL15>
+            <double>0.3</double>
+            <double>0.3</double>
+            <double>0.35</double>
+            <double>0.32</double>
+            <double>0.29</double>
+            <double>0.31</double>
+            <double>0.31</double>
+          </LL15>
+          <DUL>
+            <double>0.41</double>
+            <double>0.43</double>
+            <double>0.46</double>
+            <double>0.44</double>
+            <double>0.4</double>
+            <double>0.41</double>
+            <double>0.38</double>
+          </DUL>
+          <SAT>
+            <double>0.46</double>
+            <double>0.48</double>
+            <double>0.51</double>
+            <double>0.49</double>
+            <double>0.45</double>
+            <double>0.46</double>
+            <double>0.43</double>
+          </SAT>
+        </Water>
+        <SoilWater>
+          <SummerCona>3.5</SummerCona>
+          <SummerU>6</SummerU>
+          <SummerDate>1-Nov</SummerDate>
+          <WinterCona>3.5</WinterCona>
+          <WinterU>6</WinterU>
+          <WinterDate>1-Apr</WinterDate>
+          <DiffusConst>88</DiffusConst>
+          <DiffusSlope>35.4</DiffusSlope>
+          <Salb>0.13</Salb>
+          <CN2Bare>91</CN2Bare>
+          <CNRed>20</CNRed>
+          <CNCov>0.8</CNCov>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <SWCON>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+            <double>0.5</double>
+          </SWCON>
+        </SoilWater>
+        <SoilOrganicMatter>
+          <RootCN>30</RootCN>
+          <RootWt>1500</RootWt>
+          <SoilCN>12.5</SoilCN>
+          <EnrACoeff>7.4</EnrACoeff>
+          <EnrBCoeff>0.2</EnrBCoeff>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <OC>
+            <double>1.8</double>
+            <double>1.2</double>
+            <double>1</double>
+            <double>1</double>
+            <double>0.71</double>
+            <double>0.34</double>
+            <double>0.26</double>
+          </OC>
+          <FBiom>
+            <double>0.05</double>
+            <double>0.02</double>
+            <double>0.01</double>
+            <double>0.01</double>
+            <double>0.01</double>
+            <double>0.01</double>
+            <double>0.01</double>
+          </FBiom>
+          <FInert>
+            <double>0.39</double>
+            <double>0.47</double>
+            <double>0.52</double>
+            <double>0.62</double>
+            <double>0.74</double>
+            <double>0.83</double>
+            <double>0.93</double>
+          </FInert>
+        </SoilOrganicMatter>
+        <Analysis>
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <EC>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+            <double>0.2</double>
+          </EC>
+          <PH>
+            <double>6.9</double>
+            <double>7</double>
+            <double>7</double>
+            <double>8</double>
+            <double>8</double>
+            <double>8</double>
+            <double>8</double>
+          </PH>
+        </Analysis>
+        <Sample name="Initial soil">
+          <Date type="date" description="Sample date:" />
+          <Thickness>
+            <double>200</double>
+            <double>200</double>
+            <double>200</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <NO3>
+            <double>53.27</double>
+            <double>19.07</double>
+            <double>1.66</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+            <double>0</double>
+          </NO3>
+          <NH4>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+            <double>0.1</double>
+          </NH4>
+          <SW>
+            <double>0.342</double>
+            <double>0.416</double>
+            <double>0.445</double>
+            <double>0.429</double>
+            <double>0.388</double>
+            <double>0.407</double>
+            <double>0.395</double>
+          </SW>
+        </Sample>
+      </Soil>
+      <surfaceom name="SurfaceOrganicMatter">
+        <PoolName type="text" description="Organic Matter pool name">wheat</PoolName>
+        <type type="list" listvalues="bambatsi,barley,base_type,broccoli,camaldulensis,canola,centro,chickpea,chikenmanure_base,cm,cmA,cmB,constants,cotton,cowpea,danthonia,fababean,fieldpea,fym,gbean,globulus,goatmanure,grandis,grass,horsegram,inert,lablab,lentil,lucerne,lupin,maize,manB,manure,medic,millet,mucuna,nativepasture,navybean,oats,orobanche,peanut,pigeonpea,potato,rice,sorghum,soybean,stylo,sugar,sunflower,sweetcorn,sweetsorghum,tillage,tithonia,vetch,weed,wheat" description="Organic Matter type">wheat</type>
+        <mass type="text" description="Initial surface residue (kg/ha)">1000</mass>
+        <cnr type="text" description="C:N ratio of initial residue">80</cnr>
+        <standing_fraction type="text" description="Fraction of residue standing">0</standing_fraction>
+      </surfaceom>
+      <fertiliser />
+      <sorghum />
+      <folder name="Manager folder">
+        <manager name="Sow on a fixed date">
+          <ui>
+            <category type="category" description="Sowing criteria" />
+            <date type="text" description="Enter sowing date (dd-mmm) : ">12/01/1995</date>
+            <category type="category" description="Sowing parameters" />
+            <crop type="crop" description="Enter name of crop to sow : ">sorghum</crop>
+            <density type="text" description="Enter sowing density  (plants/m2) : ">8</density>
+            <depth type="text" description="Enter sowing depth  (mm) : ">30</depth>
+            <cultivar type="cultivars" description="Enter cultivar : ">texas_671</cultivar>
+            <class type="classes" description="Enter crop growth class : ">plant</class>
+            <row_spacing type="text" description="Enter row spacing (mm) : ">0.5</row_spacing>
+            <skiprow type="list" listvalues="solid, single, double" description="Skip row : ">solid</skiprow>
+            <ftn type="text" description="Enter Fertile Tiller Number :">0.88</ftn>
+          </ui>
+          <script>
+            <text>
+        if (today = date('[date]') then
+              [crop] sow plants =[density], sowing_depth = [depth], cultivar = [cultivar], row_spacing = [row_spacing], crop_class = [class], tiller_no_fertile = [ftn]
+         endif
+if (paddock_is_fallow() = 0) then 
+   outputfile do_output
+endif               </text>
+            <event>start_of_day</event>
+          </script>
+        </manager>
+        <manager name="Harvesting rule">
+          <ui>
+            <category description="Harvesting criteria" type="category" />
+            <crop type="crop" description="Enter name of crop to harvest when ripe : ">sorghum</crop>
+          </ui>
+          <script>
+            <text>
+
+           if [crop].StageName = 'harvest_ripe' or [crop].plant_status = 'dead' then
+              [crop]  harvest
+              [crop]  end_crop
+           endif
+
+            </text>
+            <event>end_of_day</event>
+          </script>
+        </manager>
+      </folder>
+      <outputfile>
+        <filename output="yes">Sorghum_LE9_Rs671-8.out</filename>
+        <title>Sorghum_LE9_Rs671-8</title>
+        <Graph name="XY">
+          <Plot>
+            <SeriesType>Solid line</SeriesType>
+            <PointType>Circle</PointType>
+            <colour>
+            </colour>
+            <X>Date</X>
+            <Y>biomass</Y>
+            <Y>yield</Y>
+            <GDApsimFileReader name="ApsimFileReader" />
+          </Plot>
+        </Graph>
+        <variables name="Variables">
+          <variable array="?" description="Date (dd/mm/yyyy)">dd/mm/yyyy as date</variable>
+          <variable array="No" description="Days after sowing">DaysAfterSowing</variable>
+          <variable>sw_dep()</variable>
+          <variable>ll15_dep()</variable>
+          <variable>dul_dep()</variable>
+          <variable>WaterSD</variable>
+          <variable array="No" description="Total above-ground biomass">Biomass</variable>
+          <variable>yield</variable>
+          <variable>lai</variable>
+          <variable>GrainNo</variable>
+          <variable>stage</variable>
+          <variable array="No" description="Total above-ground biomass">biomass_wt</variable>
+          <variable array="No" description="Live grain dry weight">GrainGreenWt</variable>
+          <variable array="No" description="Live rachis dry weight">RachisGreenWt</variable>
+          <variable array="No" description="Stem dry weight">StemGreenWt</variable>
+          <variable array="No" description="1000 grain weight">GrainSize</variable>
+          <variable array="No" description="Senesced leaf dry weight">LeafSenescedWt</variable>
+          <variable>TillerNoFertile</variable>
+          <variable>Leafno</variable>
+        </variables>
+      </outputfile>
+      <operations name="Operations Schedule">
+        <operation condition="start_of_day">
+          <date>12/01/1995</date>
+          <action>Irrigation apply amount = 22</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>13/01/1995</date>
+          <action>Irrigation apply amount = 16</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>16/01/1995</date>
+          <action>Irrigation apply amount = 8</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>24/01/1995</date>
+          <action>Irrigation apply amount = 8</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>25/01/1995</date>
+          <action>Irrigation apply amount = 6</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>3/02/1995</date>
+          <action>Irrigation apply amount = 11</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/02/1995</date>
+          <action>Irrigation apply amount = 32</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/03/1995</date>
+          <action>Irrigation apply amount = 27</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>17/03/1995</date>
+          <action>Irrigation apply amount = 8</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>22/03/1995</date>
+          <action>Irrigation apply amount = 16</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>5/04/1995</date>
+          <action>Irrigation apply amount = 24</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>4/01/1995</date>
+          <action>fertiliser apply amount = 0 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>4/01/1995</date>
+          <action>fertiliser apply amount = 0 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>11/01/1995</date>
+          <action>fertiliser apply amount = 105 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/02/1995</date>
+          <action>fertiliser apply amount = 59 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+        <operation condition="start_of_day">
+          <date>8/03/1995</date>
+          <action>fertiliser apply amount = 59 (kg/ha), depth = 50 (mm), type = NO3_N ()</action>
+        </operation>
+      </operations>
+      <irrigation name="Irrigation">
+        <automatic_irrigation type="list" listvalues="on,off" description="Automatic irrigation">off</automatic_irrigation>
+        <asw_depth type="text" description="Depth to which ASW is calculated. (mm)">600</asw_depth>
+        <crit_fr_asw type="text" description="Fraction of ASW below which irrigation is applied (0-1.0)">0.5</crit_fr_asw>
+        <irrigation_efficiency type="text" description="Efficiency of the irrigation. (0-1.0)">1</irrigation_efficiency>
+        <irrigation_allocation type="list" listvalues="on,off" description="Allocation limits">off</irrigation_allocation>
+        <allocation type="text" description="Allocation in mm">0</allocation>
+        <default_no3_conc type="text" description="Nitrate concentration (ppm N)">0.0</default_no3_conc>
+        <default_nh4_conc type="text" description="Ammonium concentration (ppm N)">0.0</default_nh4_conc>
+        <default_cl_conc type="text" description="Chloride concentration (ppm Cl)">0.0</default_cl_conc>
+      </irrigation>
+    </area>
+  </simulation>
+</folder>

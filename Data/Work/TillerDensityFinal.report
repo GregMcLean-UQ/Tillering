@@ -1,0 +1,1355 @@
+<report version="5">
+<Data>
+<ApsimFileReader name="LE21_7" Left="350" Top="522" Width="178" Height="137">
+  <FileName>Sorghum_Gatton_RUE_7.out</FileName>
+</ApsimFileReader>
+<ApsimFileReader name="LE21_8" Left="534" Top="522" Width="178" Height="137">
+  <FileName>Sorghum_Gatton_RUE_8.out</FileName>
+</ApsimFileReader>
+<ApsimFileReader name="LE21_9" Left="739" Top="522" Width="178" Height="137">
+  <FileName>Sorghum_Gatton_RUE_9.out</FileName>
+</ApsimFileReader>
+<ApsimFileReader name="LE20_1" Left="-5" Top="154" Width="189" Height="137">
+  <FileName>Sorghum_Gatton_Tiller_x_Density_1 outputfile_daily.out</FileName>
+</ApsimFileReader>
+<ApsimFileReader name="LE20_2" Left="6" Top="306" Width="178" Height="137">
+  <FileName>Sorghum_Gatton_Tiller_x_Density_2 outputfile_daily.out</FileName>
+</ApsimFileReader>
+<ApsimFileReader name="LE20_3" Left="7" Top="449" Width="178" Height="137">
+  <FileName>Sorghum_Gatton_Tiller_x_Density_3 outputfile_daily.out</FileName>
+</ApsimFileReader>
+<ApsimFileReader name="LE20_4" Left="7" Top="592" Width="178" Height="137">
+  <FileName>Sorghum_Gatton_Tiller_x_Density_4 outputfile_daily.out</FileName>
+</ApsimFileReader>
+<ApsimFileReader name="LE19_T4" Left="145" Top="50" Width="178" Height="137">
+  <FileName>Sorghum_LE19_T4.out</FileName>
+</ApsimFileReader>
+<ApsimFileReader name="LE19_T8" Left="22" Top="-48" Width="178" Height="137">
+  <FileName>Sorghum_LE19_T8.out</FileName>
+</ApsimFileReader>
+<REMS Left="801" Top="-15" Width="148" Height="234" name="REMS_20_1">
+  <FileName>LawesRems.mdb</FileName>
+  <Experiment>Gatton Tiller x Density</Experiment>
+  <Treatment>2 Kept</Treatment>
+  <DataSource>Crop</DataSource>
+</REMS>
+<REMS Left="647" Top="-15" Width="148" Height="234" name="REMS_20_2">
+  <FileName>LawesRems.mdb</FileName>
+  <Experiment>Gatton Tiller x Density</Experiment>
+  <Treatment>4 Kept</Treatment>
+  <DataSource>Crop</DataSource>
+</REMS>
+<REMS Left="493" Top="-15" Width="148" Height="234" name="REMS_20_3">
+  <FileName>LawesRems.mdb</FileName>
+  <Experiment>Gatton Tiller x Density</Experiment>
+  <Treatment>8 Kept</Treatment>
+  <DataSource>Crop</DataSource>
+</REMS>
+<REMS Left="339" Top="-15" Width="148" Height="234" name="REMS_20_4">
+  <FileName>LawesRems.mdb</FileName>
+  <Experiment>Gatton Tiller x Density</Experiment>
+  <Treatment>16 Kept</Treatment>
+  <DataSource>Crop</DataSource>
+</REMS>
+<REMS Left="493" Top="225" Width="148" Height="234" name="REMS_21_7">
+  <FileName>LawesRems.mdb</FileName>
+  <Experiment>Gatton_RUE</Experiment>
+  <Treatment>CSH13R 360kg/ha</Treatment>
+  <DataSource>Crop</DataSource>
+</REMS>
+<REMS Left="647" Top="225" Width="148" Height="234" name="REMS_21_8">
+  <FileName>LawesRems.mdb</FileName>
+  <Experiment>Gatton_RUE</Experiment>
+  <Treatment>A35xQL36 360kg/ha</Treatment>
+  <DataSource>Crop</DataSource>
+</REMS>
+<REMS Left="801" Top="225" Width="148" Height="234" name="REMS_21_9">
+  <FileName>LawesRems.mdb</FileName>
+  <Experiment>Gatton_RUE</Experiment>
+  <Treatment>QL39xQL36 360kg/ha</Treatment>
+  <DataSource>Crop</DataSource>
+</REMS>
+<REMS Left="190" Top="225" Width="148" Height="234" name="REMS_19_T4">
+  <FileName>ACIAR.mdb</FileName>
+  <Experiment>LE19</Experiment>
+  <Treatment>Buster 360 kg/ha</Treatment>
+  <DataSource>Crop</DataSource>
+</REMS>
+<REMS Left="339" Top="225" Width="148" Height="234" name="REMS_19_T8">
+  <FileName>ACIAR.mdb</FileName>
+  <Experiment>LE19</Experiment>
+  <Treatment>CSH13R 360 kg/ha</Treatment>
+  <DataSource>Crop</DataSource>
+</REMS>
+<DataGrid Left="712" Top="142" Width="1075" Height="374">
+  <source>LE20_4</source>
+</DataGrid>
+</Data>
+   <page> <![CDATA[
+object Tillers: TQuickRep
+  Left = 239
+  Top = 21
+  Width = 1235
+  Height = 873
+  Frame.Color = clBlack
+  Frame.DrawTop = False
+  Frame.DrawBottom = False
+  Frame.DrawLeft = False
+  Frame.DrawRight = False
+  Frame.Style = psClear
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Arial'
+  Font.Style = []
+  Functions.Strings = (
+    'PAGENUMBER'
+    'COLUMNNUMBER'
+    'REPORTTITLE')
+  Functions.DATA = (
+    '0'
+    '0'
+    #39#39)
+  Options = [FirstPageHeader, LastPageFooter]
+  Page.Columns = 1
+  Page.Orientation = poLandscape
+  Page.PaperSize = A4
+  Page.Ruler = False
+  Page.Values = (
+    0
+    2100
+    0
+    2970
+    0
+    0
+    0)
+  PrinterSettings.Copies = 1
+  PrinterSettings.Duplex = False
+  PrinterSettings.FirstPage = 0
+  PrinterSettings.LastPage = 0
+  PrinterSettings.OutputBin = Auto
+  PrintIfEmpty = True
+  SnapToGrid = True
+  Units = MM
+  Zoom = 110
+  object TTitleBand1: TQRBand
+    Left = 0
+    Top = 0
+    Width = 1235
+    Height = 873
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    AlignToBottom = False
+    Color = clWhite
+    ForceNewColumn = False
+    ForceNewPage = False
+    Size.Values = (
+      2100
+      2970.54924242424)
+    BandType = rbTitle
+    object Graph14: TGraph
+      Left = 62
+      Top = 48
+      Width = 488
+      Height = 366
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Frame.Style = psClear
+      Size.Values = (
+        880.340909090909
+        149.128787878788
+        115.454545454545
+        1173.78787878788)
+      title = 'LE20 - Sorghum_Gatton_Tiller_x_Density 2'#13#10
+      subTitle = ' '
+      leftAxisTitle = 'Tillers, LAI'
+      topAxisTitle = ' '
+      rightAxisTitle = 'LeafNo'
+      bottomAxisTitle = ' '
+      footTitle = ' '
+      seriesTitle1 = 'Tillers'
+      seriesTitle2 = 'ObsTillers'
+      seriesTitle3 = 'FertileTillers'
+      seriesTitle4 = 'SLA'
+      seriesTitle5 = 'slaMax'
+      object QRDBChart14: TQRDBChart
+        Left = -1
+        Top = -1
+        Width = 1
+        Height = 1
+        BackWall.Visible = False
+        Title.Font.Height = -12
+        Title.Font.Style = [fsBold]
+        Title.Text.Strings = (
+          'LE20 - Sorghum_Gatton_Tiller_x_Density 2')
+        BottomAxis.AxisValuesFormat = '###0.###'
+        BottomAxis.DateTimeFormat = 'd/mmm'
+        BottomAxis.Grid.Visible = False
+        BottomAxis.Increment = 3
+        BottomAxis.LabelsFont.Style = [fsBold]
+        BottomAxis.LabelsSeparation = 100
+        BottomAxis.MinorTicks.Visible = False
+        BottomAxis.TickLength = 7
+        LeftAxis.Automatic = False
+        LeftAxis.AutomaticMaximum = False
+        LeftAxis.AxisValuesFormat = '###0.###'
+        LeftAxis.Grid.Visible = False
+        LeftAxis.LabelsFont.Style = [fsBold]
+        LeftAxis.LabelsSeparation = 100
+        LeftAxis.Maximum = 9
+        LeftAxis.MinorTicks.Visible = False
+        LeftAxis.TickLength = 7
+        LeftAxis.Title.Caption = 'Tillers, LAI'
+        LeftAxis.Title.Font.Style = [fsBold]
+        Legend.Alignment = laBottom
+        Legend.LegendStyle = lsSeries
+        Legend.Shadow.HorizSize = 0
+        Legend.Shadow.VertSize = 0
+        Legend.TopPos = 2
+        Legend.VertSpacing = -2
+        RightAxis.Automatic = False
+        RightAxis.AutomaticMaximum = False
+        RightAxis.AxisValuesFormat = '###0.###'
+        RightAxis.Grid.Visible = False
+        RightAxis.LabelsFont.Style = [fsBold]
+        RightAxis.LabelsSeparation = 100
+        RightAxis.Maximum = 18
+        RightAxis.MinorTicks.Visible = False
+        RightAxis.TickLength = 7
+        RightAxis.Title.Caption = 'LeafNo'
+        RightAxis.Title.Font.Style = [fsBold]
+        TopAxis.AxisValuesFormat = '###0.###'
+        TopAxis.Grid.Visible = False
+        TopAxis.LabelsSeparation = 100
+        TopAxis.MinorTicks.Visible = False
+        TopAxis.TickLength = 7
+        View3D = False
+        object LineSeries61: TLineSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = clGreen
+          Title = 'Tillers'
+          LinePen.Color = clGreen
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'tillers'
+        end
+        object PointSeries49: TPointSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_1
+          SeriesColor = clGreen
+          Title = 'ObsTillers'
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psCircle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'NMFSPLT'
+        end
+        object PointSeries50: TPointSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_1
+          SeriesColor = 4227072
+          Title = 'FertileTillers'
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'NMTSP'
+        end
+        object LineSeries62: TLineSeries
+          Active = False
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          Title = 'SLA'
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'SLA'
+        end
+        object LineSeries63: TLineSeries
+          Active = False
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = clBlue
+          Title = 'slaMax'
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'maxSLA'
+        end
+        object LineSeries64: TLineSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = 4227327
+          Title = 'LAI'
+          LinePen.Color = 4227327
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'lai'
+        end
+        object PointSeries51: TPointSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_1
+          SeriesColor = 33023
+          Title = 'ObsLAI'
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'LAI'
+        end
+        object LineSeries65: TLineSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = clBlack
+          Title = 'LeafNo'
+          VertAxis = aRightAxis
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'Leafno'
+        end
+        object PointSeries52: TPointSeries
+          Active = False
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_1
+          SeriesColor = clFuchsia
+          Title = 'leafNo_Obs'
+          VertAxis = aRightAxis
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+        end
+        object Series1: TLineSeries
+          Active = False
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = 8453888
+          Title = 'PotTillers'
+          VertAxis = aRightAxis
+          LinePen.Color = clGreen
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'calculatedTillers'
+        end
+        object Series5: TLineSeries
+          Active = False
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = clBlack
+          Title = 'Reeves'
+          LinePen.Style = psDot
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'reeves'
+        end
+      end
+    end
+    object Graph1: TGraph
+      Left = 638
+      Top = 48
+      Width = 488
+      Height = 366
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Frame.Style = psClear
+      Size.Values = (
+        880.340909090909
+        1534.58333333333
+        115.454545454545
+        1173.78787878788)
+      title = 'LE20 - Sorghum_Gatton_Tiller_x_Density 4'#13#10
+      subTitle = ' '
+      leftAxisTitle = 'Tillers, LAI'
+      topAxisTitle = ' '
+      rightAxisTitle = 'LeafNo'
+      bottomAxisTitle = ' '
+      footTitle = ' '
+      seriesTitle1 = 'Tillers'
+      seriesTitle2 = 'ObsTillers'
+      seriesTitle3 = 'FertileTillers'
+      seriesTitle4 = 'SLA'
+      seriesTitle5 = 'slaMax'
+      object QRDBChart1: TQRDBChart
+        Left = -1
+        Top = -1
+        Width = 1
+        Height = 1
+        BackWall.Visible = False
+        Title.Font.Height = -12
+        Title.Font.Style = [fsBold]
+        Title.Text.Strings = (
+          'LE20 - Sorghum_Gatton_Tiller_x_Density 4')
+        BottomAxis.AxisValuesFormat = '###0.###'
+        BottomAxis.DateTimeFormat = 'd/mmm'
+        BottomAxis.Grid.Visible = False
+        BottomAxis.Increment = 3
+        BottomAxis.LabelsFont.Style = [fsBold]
+        BottomAxis.LabelsSeparation = 100
+        BottomAxis.MinorTicks.Visible = False
+        BottomAxis.TickLength = 7
+        LeftAxis.Automatic = False
+        LeftAxis.AutomaticMaximum = False
+        LeftAxis.AxisValuesFormat = '###0.###'
+        LeftAxis.Grid.Visible = False
+        LeftAxis.LabelsFont.Style = [fsBold]
+        LeftAxis.LabelsSeparation = 100
+        LeftAxis.Maximum = 9
+        LeftAxis.MinorTicks.Visible = False
+        LeftAxis.TickLength = 7
+        LeftAxis.Title.Caption = 'Tillers, LAI'
+        LeftAxis.Title.Font.Style = [fsBold]
+        Legend.Alignment = laBottom
+        Legend.LegendStyle = lsSeries
+        Legend.Shadow.HorizSize = 0
+        Legend.Shadow.VertSize = 0
+        Legend.TopPos = 2
+        Legend.VertSpacing = -2
+        RightAxis.Automatic = False
+        RightAxis.AutomaticMaximum = False
+        RightAxis.AxisValuesFormat = '###0.###'
+        RightAxis.Grid.Visible = False
+        RightAxis.LabelsFont.Style = [fsBold]
+        RightAxis.LabelsSeparation = 100
+        RightAxis.Maximum = 18
+        RightAxis.MinorTicks.Visible = False
+        RightAxis.TickLength = 7
+        RightAxis.Title.Caption = 'LeafNo'
+        RightAxis.Title.Font.Style = [fsBold]
+        TopAxis.AxisValuesFormat = '###0.###'
+        TopAxis.Grid.Visible = False
+        TopAxis.LabelsSeparation = 100
+        TopAxis.MinorTicks.Visible = False
+        TopAxis.TickLength = 7
+        View3D = False
+        object LineSeries1: TLineSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_2
+          SeriesColor = clGreen
+          Title = 'Tillers'
+          LinePen.Color = clGreen
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'tillers'
+        end
+        object PointSeries1: TPointSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_2
+          SeriesColor = clGreen
+          Title = 'ObsTillers'
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psCircle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'NMFSPLT'
+        end
+        object PointSeries2: TPointSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_2
+          SeriesColor = 4227072
+          Title = 'FertileTillers'
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'NMTSP'
+        end
+        object LineSeries2: TLineSeries
+          Active = False
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          Title = 'SLA'
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'SLA'
+        end
+        object LineSeries3: TLineSeries
+          Active = False
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = clBlue
+          Title = 'slaMax'
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'maxSLA'
+        end
+        object LineSeries4: TLineSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_2
+          SeriesColor = 4227327
+          Title = 'LAI'
+          LinePen.Color = 4227327
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'lai'
+        end
+        object PointSeries3: TPointSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_2
+          SeriesColor = 33023
+          Title = 'ObsLAI'
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'LAI'
+        end
+        object LineSeries5: TLineSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_2
+          SeriesColor = clBlack
+          Title = 'LeafNo'
+          VertAxis = aRightAxis
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'Leafno'
+        end
+        object PointSeries4: TPointSeries
+          Active = False
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_1
+          SeriesColor = clFuchsia
+          Title = 'leafNo_Obs'
+          VertAxis = aRightAxis
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+        end
+        object LineSeries6: TLineSeries
+          Active = False
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = 8453888
+          Title = 'PotTillers'
+          VertAxis = aRightAxis
+          LinePen.Color = clGreen
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'calculatedTillers'
+        end
+        object LineSeries7: TLineSeries
+          Active = False
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = clBlack
+          Title = 'Reeves'
+          LinePen.Style = psDot
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'reeves'
+        end
+      end
+    end
+    object Graph2: TGraph
+      Left = 78
+      Top = 456
+      Width = 488
+      Height = 366
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Frame.Style = psClear
+      Size.Values = (
+        880.340909090909
+        187.613636363636
+        1096.81818181818
+        1173.78787878788)
+      title = 'LE20 - Sorghum_Gatton_Tiller_x_Density 8'#13#10
+      subTitle = ' '
+      leftAxisTitle = 'Tillers, LAI'
+      topAxisTitle = ' '
+      rightAxisTitle = 'LeafNo'
+      bottomAxisTitle = ' '
+      footTitle = ' '
+      seriesTitle1 = 'Tillers'
+      seriesTitle2 = 'ObsTillers'
+      seriesTitle3 = 'FertileTillers'
+      seriesTitle4 = 'SLA'
+      seriesTitle5 = 'slaMax'
+      object QRDBChart2: TQRDBChart
+        Left = -1
+        Top = -1
+        Width = 1
+        Height = 1
+        BackWall.Visible = False
+        Title.Font.Height = -12
+        Title.Font.Style = [fsBold]
+        Title.Text.Strings = (
+          'LE20 - Sorghum_Gatton_Tiller_x_Density 8')
+        BottomAxis.AxisValuesFormat = '###0.###'
+        BottomAxis.DateTimeFormat = 'd/mmm'
+        BottomAxis.Grid.Visible = False
+        BottomAxis.Increment = 3
+        BottomAxis.LabelsFont.Style = [fsBold]
+        BottomAxis.LabelsSeparation = 100
+        BottomAxis.MinorTicks.Visible = False
+        BottomAxis.TickLength = 7
+        LeftAxis.Automatic = False
+        LeftAxis.AutomaticMaximum = False
+        LeftAxis.AxisValuesFormat = '###0.###'
+        LeftAxis.Grid.Visible = False
+        LeftAxis.LabelsFont.Style = [fsBold]
+        LeftAxis.LabelsSeparation = 100
+        LeftAxis.Maximum = 9
+        LeftAxis.MinorTicks.Visible = False
+        LeftAxis.TickLength = 7
+        LeftAxis.Title.Caption = 'Tillers, LAI'
+        LeftAxis.Title.Font.Style = [fsBold]
+        Legend.Alignment = laBottom
+        Legend.LegendStyle = lsSeries
+        Legend.Shadow.HorizSize = 0
+        Legend.Shadow.VertSize = 0
+        Legend.TopPos = 2
+        Legend.VertSpacing = -2
+        RightAxis.Automatic = False
+        RightAxis.AutomaticMaximum = False
+        RightAxis.AxisValuesFormat = '###0.###'
+        RightAxis.Grid.Visible = False
+        RightAxis.LabelsFont.Style = [fsBold]
+        RightAxis.LabelsSeparation = 100
+        RightAxis.Maximum = 18
+        RightAxis.MinorTicks.Visible = False
+        RightAxis.TickLength = 7
+        RightAxis.Title.Caption = 'LeafNo'
+        RightAxis.Title.Font.Style = [fsBold]
+        TopAxis.AxisValuesFormat = '###0.###'
+        TopAxis.Grid.Visible = False
+        TopAxis.LabelsSeparation = 100
+        TopAxis.MinorTicks.Visible = False
+        TopAxis.TickLength = 7
+        View3D = False
+        object LineSeries8: TLineSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_3
+          SeriesColor = clGreen
+          Title = 'Tillers'
+          LinePen.Color = clGreen
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'tillers'
+        end
+        object PointSeries5: TPointSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_3
+          SeriesColor = clGreen
+          Title = 'ObsTillers'
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psCircle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'NMFSPLT'
+        end
+        object PointSeries6: TPointSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_3
+          SeriesColor = 4227072
+          Title = 'FertileTillers'
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'NMTSP'
+        end
+        object LineSeries9: TLineSeries
+          Active = False
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          Title = 'SLA'
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'SLA'
+        end
+        object LineSeries10: TLineSeries
+          Active = False
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = clBlue
+          Title = 'slaMax'
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'maxSLA'
+        end
+        object LineSeries11: TLineSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_3
+          SeriesColor = 4227327
+          Title = 'LAI'
+          LinePen.Color = 4227327
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'lai'
+        end
+        object PointSeries7: TPointSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_3
+          SeriesColor = 33023
+          Title = 'ObsLAI'
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'LAI'
+        end
+        object LineSeries12: TLineSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_3
+          SeriesColor = clBlack
+          Title = 'LeafNo'
+          VertAxis = aRightAxis
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'Leafno'
+        end
+        object PointSeries8: TPointSeries
+          Active = False
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_1
+          SeriesColor = clFuchsia
+          Title = 'leafNo_Obs'
+          VertAxis = aRightAxis
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+        end
+        object LineSeries13: TLineSeries
+          Active = False
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = 8453888
+          Title = 'PotTillers'
+          VertAxis = aRightAxis
+          LinePen.Color = clGreen
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'calculatedTillers'
+        end
+        object LineSeries14: TLineSeries
+          Active = False
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = clBlack
+          Title = 'Reeves'
+          LinePen.Style = psDot
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'reeves'
+        end
+      end
+    end
+    object Graph3: TGraph
+      Left = 654
+      Top = 456
+      Width = 488
+      Height = 366
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      Frame.Style = psClear
+      Size.Values = (
+        880.340909090909
+        1573.06818181818
+        1096.81818181818
+        1173.78787878788)
+      title = 'LE20 - Sorghum_Gatton_Tiller_x_Density 16'#13#10
+      subTitle = ' '
+      leftAxisTitle = 'Tillers, LAI'
+      topAxisTitle = ' '
+      rightAxisTitle = 'LeafNo'
+      bottomAxisTitle = ' '
+      footTitle = ' '
+      seriesTitle1 = 'Tillers'
+      seriesTitle2 = 'ObsTillers'
+      seriesTitle3 = 'FertileTillers'
+      seriesTitle4 = 'SLA'
+      seriesTitle5 = 'slaMax'
+      object QRDBChart3: TQRDBChart
+        Left = -1
+        Top = -1
+        Width = 1
+        Height = 1
+        BackWall.Visible = False
+        Title.Font.Height = -12
+        Title.Font.Style = [fsBold]
+        Title.Text.Strings = (
+          'LE20 - Sorghum_Gatton_Tiller_x_Density 16')
+        BottomAxis.AxisValuesFormat = '###0.###'
+        BottomAxis.DateTimeFormat = 'd/mmm'
+        BottomAxis.Grid.Visible = False
+        BottomAxis.Increment = 3
+        BottomAxis.LabelsFont.Style = [fsBold]
+        BottomAxis.LabelsSeparation = 100
+        BottomAxis.MinorTicks.Visible = False
+        BottomAxis.TickLength = 7
+        LeftAxis.Automatic = False
+        LeftAxis.AutomaticMaximum = False
+        LeftAxis.AxisValuesFormat = '###0.###'
+        LeftAxis.Grid.Visible = False
+        LeftAxis.LabelsFont.Style = [fsBold]
+        LeftAxis.LabelsSeparation = 100
+        LeftAxis.Maximum = 9
+        LeftAxis.MinorTicks.Visible = False
+        LeftAxis.TickLength = 7
+        LeftAxis.Title.Caption = 'Tillers, LAI'
+        LeftAxis.Title.Font.Style = [fsBold]
+        Legend.Alignment = laBottom
+        Legend.LegendStyle = lsSeries
+        Legend.Shadow.HorizSize = 0
+        Legend.Shadow.VertSize = 0
+        Legend.TopPos = 2
+        Legend.VertSpacing = -2
+        RightAxis.Automatic = False
+        RightAxis.AutomaticMaximum = False
+        RightAxis.AxisValuesFormat = '###0.###'
+        RightAxis.Grid.Visible = False
+        RightAxis.LabelsFont.Style = [fsBold]
+        RightAxis.LabelsSeparation = 100
+        RightAxis.Maximum = 18
+        RightAxis.MinorTicks.Visible = False
+        RightAxis.TickLength = 7
+        RightAxis.Title.Caption = 'LeafNo'
+        RightAxis.Title.Font.Style = [fsBold]
+        TopAxis.AxisValuesFormat = '###0.###'
+        TopAxis.Grid.Visible = False
+        TopAxis.LabelsSeparation = 100
+        TopAxis.MinorTicks.Visible = False
+        TopAxis.TickLength = 7
+        View3D = False
+        object LineSeries15: TLineSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_4
+          SeriesColor = clGreen
+          Title = 'Tillers'
+          LinePen.Color = clGreen
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'tillers'
+        end
+        object PointSeries9: TPointSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_4
+          SeriesColor = clGreen
+          Title = 'ObsTillers'
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psCircle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'NMFSPLT'
+        end
+        object PointSeries10: TPointSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_4
+          SeriesColor = 4227072
+          Title = 'FertileTillers'
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'NMTSP'
+        end
+        object LineSeries16: TLineSeries
+          Active = False
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          Title = 'SLA'
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'SLA'
+        end
+        object LineSeries17: TLineSeries
+          Active = False
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = clBlue
+          Title = 'slaMax'
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'maxSLA'
+        end
+        object LineSeries18: TLineSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_4
+          SeriesColor = 4227327
+          Title = 'LAI'
+          LinePen.Color = 4227327
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'lai'
+        end
+        object PointSeries11: TPointSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_4
+          SeriesColor = 33023
+          Title = 'ObsLAI'
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'LAI'
+        end
+        object LineSeries19: TLineSeries
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_3
+          SeriesColor = clBlack
+          Title = 'LeafNo'
+          VertAxis = aRightAxis
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'Leafno'
+        end
+        object PointSeries12: TPointSeries
+          Active = False
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = REMS_20_1
+          SeriesColor = clFuchsia
+          Title = 'leafNo_Obs'
+          VertAxis = aRightAxis
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = True
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'Date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+        end
+        object LineSeries20: TLineSeries
+          Active = False
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = 8453888
+          Title = 'PotTillers'
+          VertAxis = aRightAxis
+          LinePen.Color = clGreen
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'calculatedTillers'
+        end
+        object LineSeries21: TLineSeries
+          Active = False
+          Depth = 0
+          Marks.Callout.Brush.Color = clBlack
+          Marks.Visible = False
+          DataSource = LE20_1
+          SeriesColor = clBlack
+          Title = 'Reeves'
+          LinePen.Style = psDot
+          LinePen.Width = 2
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          Pointer.Visible = False
+          XValues.DateTime = True
+          XValues.Name = 'X'
+          XValues.Order = loAscending
+          XValues.ValueSource = 'date'
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          YValues.ValueSource = 'reeves'
+        end
+      end
+    end
+  end
+end
+]]>
+   </page>
+</report>

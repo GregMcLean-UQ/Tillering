@@ -1,0 +1,33 @@
+*.csv
+*.out
+*.sim
+*.sum
+*.ldb
+Data/Work/Ian/
+Programs/TilleringSummary/obj/
+Programs/TilleringSummary/bin/Debug/TilleringSummary.exe.config
+Programs/TilleringSummary/bin/Debug/TilleringSummary.vshost.exe.config
+Programs/Utilities/bin/Debug/Utilities.dll
+Programs/Utilities/bin/Debug/Utilities.dll.config
+Programs/Utilities/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+Programs/Utilities/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+Programs/Utilities/obj/
+Programs/TilleringSummary/bin/
+Data/Work/log.txt
+*.met
+Documents/~$llering sensibility testing.docx
+*.jpg
+*.png
+*.tmp
+Programs/SensibilityTesting/Utilities.dll
+Programs/
+Data/LawesRems_RemsData.xls
+Data/Work/LawesRems_RemsData.xls
+Data/Work/CheckPoint/LE19_tiller.apsim
+*.7z
+PlausibilityTests/Files/
+*.zip
+DalbyWetDry/~$ecs for Tillering examination.docx
+*.accdb
+Data/Files/
+Files/
