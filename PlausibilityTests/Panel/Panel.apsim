@@ -742,7 +742,7 @@ endif</text>
           <tt_flag_to_flower_ub type="text" description="upper limit">1000.0</tt_flag_to_flower_ub>
           <senescedLeafSLN type="text" description="senescedLeafSLN">0.0</senescedLeafSLN>
           <leaf_area_calc_type type="list" listvalues="tpla,bellcurve,bellcurve_fixed_tillers" description="Canopy calculation">bellcurve</leaf_area_calc_type>
-          <tillerSlaBound type="text" description="SLA Range (%)">10</tillerSlaBound>
+          <tillerSlaBound type="text" description="SLA Range (%)">15</tillerSlaBound>
           <maxLAIForTillerAddition type="text" description="Max Linear LAI for tillers">0.325</maxLAIForTillerAddition>
         </sorghumConstants>
         <sorghumGenotype name="QL41xQL36">
